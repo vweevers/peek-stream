@@ -1,4 +1,4 @@
-var peek = require('peek-stream')
+var peek = require('@vweevers/peek-stream')
 var ldjson = require('ldjson-stream')
 var csv = require('csv-parser')
 

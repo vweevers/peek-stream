@@ -1,18 +1,17 @@
 # peek-stream
 
-Transform stream that lets you peek the first line before deciding how to parse it
+Transform stream that lets you peek the first line before deciding how to parse it. Fork of [`mafintosh/peek-stream`](https://github.com/mafintosh/peek-stream) (1.1.3) to add [#8](https://github.com/mafintosh/peek-stream/pull/8).
 
 ```
-npm install peek-stream
+npm install @vweevers/peek-stream
 ```
 
-[![Test](https://img.shields.io/github/actions/workflow/status/mafintosh/peek-stream/test.yml?branch=master&label=test)](https://github.com/mafintosh/peek-stream/actions/workflows/test.yml)
-![dat](http://img.shields.io/badge/Development%20sponsored%20by-dat-green.svg?style=flat)
+[![Test](https://img.shields.io/github/actions/workflow/status/vweevers/peek-stream/test.yml?branch=master&label=test)](https://github.com/vweevers/peek-stream/actions/workflows/test.yml)
 
 ## Usage
 
 ``` js
-var peek = require('peek-stream')
+var peek = require('@vweevers/peek-stream')
 var ldjson = require('ldjson-stream')
 var csv = require('csv-parser')
 
